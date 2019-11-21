@@ -1,0 +1,28 @@
+@import './header.css';
+@import './footer.css';
+@import './nav.css';
+@import './section.css';
+
+:root{
+    scroll-behavior: smooth;
+    --bg: rgb(158, 73, 110);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(236, 21%, 46%);
+    font-family: sans-serif;
+    line-height: 23px;
+    color: rgba(19, 18, 18, 0.541);
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+a:hover{
+    color: hsl(100, 50%, 60%);
+}

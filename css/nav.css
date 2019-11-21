@@ -1,0 +1,16 @@
+nav > ul li{
+display: inline-block;
+text-align : center;
+width: 120px;
+background-color: rgb(170, 142, 190);
+}
+
+nav > ul a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: 0.31s;
+}
+nav > ul a:hover{
+    height: 200px;
+}
